@@ -1,0 +1,45 @@
+
+/* CSS初始化 */
+body,h1,h2,h3,h4,h5,h6,ul,ol,dl,li,dt,dd,p {
+	 margin: 0;
+	 padding: 0;
+	 font-size: 14px;
+	 color: #000000;
+	 font-family: "宋体";
+	 list-style: none;
+	 font-weight: 400;
+}
+
+a {
+	 text-decoration: none;
+	 color: #000;
+}
+
+input,img {
+	vertical-align: bottom;
+	border: 0 none;
+	outline-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+
+.clearfix:after {
+	content: "";
+	height: 0;
+	line-height: 0;
+	display: block;
+	clear: both;
+	visibility: hidden;
+}
+
+.clearfix {
+	 zoom: 1;
+}
+
+
+/* 版心 */
+.w {
+	 width: 980px;
+	 margin: 0 auto;
+}
